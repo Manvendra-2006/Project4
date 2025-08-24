@@ -2,7 +2,6 @@
     margin  : 0px;
     padding : 0px;
     box-sizing: border-box;
-    line-height: 1.4;
 }
 .hero-section{
     height:70vh;
@@ -50,5 +49,38 @@
 .text2{
     font-size: 50px;
 }
+.section_card{
+    height:60vh;
+    width:100%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.card1{
+    height:370px;
+    width:320px;
+   position: absolute;
+    border:5px solid black;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1) ;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    
+}
+.card1 h1{
+    font-weight: 900;
+}
+.card1 h4{
+    text-transform: capitalize;
+    text-align:justify;
+}
+.card2{
+     height:370px;
+    width:520px;
+    border:2px solid black;
+}
+
 
 
