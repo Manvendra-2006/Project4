@@ -1,0 +1,38 @@
+*{
+    margin  : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+.hero-section{
+    height:70vh;
+    width:100%;
+    display: block;
+    background-image:url("https://media.istockphoto.com/id/1162709822/photo/full-stack-developer-with-digital-java-code-text-full-stack-developer-and-computer-software.jpg?s=2048x2048&w=is&k=20&c=BZ2-x2ztdN7uR-_pIrdDDpeFRMmTxCkTEGFy101tGeQ=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.text-containing{
+     display:flex;    
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    position: absolute;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 30px;
+    position:absolute;
+    margin-top:70px;
+}
+@media (width:465px){
+    .text-containing{
+        font-size: smaller;
+    }
+}
+
+
+
